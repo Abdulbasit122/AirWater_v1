@@ -25,7 +25,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .water-bg {
-  background: linear-gradient(to bottom, #e6f7ff, #ffffff);
+  background-image: url(./assets//drop-of-water-578897_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .water-card-bg {
