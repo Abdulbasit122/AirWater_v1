@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { motion } from 'framer-motion'
 import Navigation from './Navigation'
 import LanguageSelector from './LanguageSelector'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 
 const Header = ({ scrollY }) => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -26,7 +26,8 @@ const Header = ({ scrollY }) => {
           <motion.img 
             src={logo} 
             alt="AquAir Logo" 
-            className="h-10 md:h-12"
+            // width={17}
+            className="h-16  md:h-20"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           />

@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BubbleEffect from "./components/UI/BubbleEffect";
+import About from "./components/About/About";
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -27,6 +28,7 @@ function App() {
       <Header scrollY={scrollY} />
       <main>
           <Hero />
+          <About/>
           <Features />
           <Testimonials />
           <Contact />

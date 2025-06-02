@@ -23,8 +23,8 @@ const LanguageSelector = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center text-sm text-primary-600 hover:text-primary-700 focus:outline-none"
       >
-        <span className="mr-1">{selectedLanguage.code.toUpperCase()}</span>
-        <span className="text-xs">▼</span>
+        {/* <span className="mr-1">{selectedLanguage.code.toUpperCase()}</span>
+        <span className="text-xs">▼</span> */}
       </button>
       
       {isOpen && (
