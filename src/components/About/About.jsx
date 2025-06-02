@@ -22,20 +22,20 @@ const About = () => {
               Meet Our CEO
             </h2>
             <p className="text-gray-600 text-base sm:text-lg">
-              Under the visionary leadership of our CEO, our company has pioneered cutting-edge technologies since 2025. 
+              Under the visionary leadership of our CEO, our company has pioneered cutting-edge technologies since 2025.
               With a passion for progress, our team is committed to delivering impactful solutions that resonate globally.
             </p>
             <p className="text-gray-600 text-base sm:text-lg">
-              Our CEO's mission is to foster a culture of creativity and collaboration, ensuring we remain at the forefront of 
+              Our CEO's mission is to foster a culture of creativity and collaboration, ensuring we remain at the forefront of
               innovation while staying true to our core values of integrity and excellence.
             </p>
-       
+
           </div>
 
           {/* Image Section */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src="src/assets/ceo image.jpg"
               alt="CEO Portrait"
               className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full shadow-lg border-4 border-blue-100"
             />

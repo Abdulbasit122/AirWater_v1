@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg'
 
 const Footer = () => {
   const year = new Date().getFullYear()
-  
+
   const quickLinks = [
     { name: 'About Us', href: '#about' },
     { name: 'Services', href: '#services' },
@@ -11,7 +11,7 @@ const Footer = () => {
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' }
   ]
-  
+
   const services = [
     { name: 'Water Purification', href: '#purification' },
     { name: 'Air Filtration', href: '#filtration' },
@@ -19,14 +19,14 @@ const Footer = () => {
     { name: 'Environmental Consulting', href: '#consulting' },
     { name: 'Smart Monitoring', href: '#monitoring' }
   ]
-  
+
   const socialLinks = [
     { name: 'Facebook', href: '#', icon: 'facebook' },
     { name: 'Twitter', href: '#', icon: 'twitter' },
     { name: 'Instagram', href: '#', icon: 'instagram' },
     { name: 'LinkedIn', href: '#', icon: 'linkedin' }
   ]
-  
+
   return (
     <footer className="bg-primary-900 text-white pt-20 pb-10">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -51,7 +51,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
@@ -69,7 +69,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
@@ -87,7 +87,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">Newsletter</h3>
             <p className="text-primary-100 mb-4">
@@ -95,9 +95,9 @@ const Footer = () => {
             </p>
             <form className="space-y-3">
               <div>
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
+                <input
+                  type="email"
+                  placeholder="Your email address"
                   className="w-full px-4 py-2 rounded-lg bg-primary-800 border border-primary-700 text-white placeholder-primary-300 focus:outline-none focus:ring-2 focus:ring-primary-400"
                 />
               </div>
@@ -112,9 +112,9 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        
+
         <div className="mt-16 pt-8 border-t border-primary-800 text-center text-primary-300">
-          <p>&copy; {year} AquAir Water Management. All rights reserved.</p>
+          <p>&copy; {year} This website is made by Abdul Basit Mujeeb.</p>
         </div>
       </div>
     </footer>
